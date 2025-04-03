@@ -1,8 +1,8 @@
 security:
   name: security
 
-DFIR:
-  name: DFIR
+forensics:
+  name: forensics
 
 programming:
   name: programming
