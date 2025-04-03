@@ -10,7 +10,7 @@ permalink: /me/
 <pre>
 그냥 컴퓨터가 좋은 사람⠀⠀⠀⠀⠀⠀⠀⠀⠀
 </pre>
-<hr/>
+
 ## I'm interested at
 
 <pre>
@@ -19,6 +19,4 @@ Front-End
 Web Hacking
 </pre>
 
-## CTFs
-
-- 디포챌 우승
+## Skills

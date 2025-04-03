@@ -113,8 +113,8 @@ ul.topbar {
 .post_list {
   width: 70.2%;
   margin: 0 auto;
-  min-height: 80vh;
-  max-height: 80vh;
+  min-height: 65vh;
+  max-height: 65vh;
   overflow-y: scroll;
   display: inline-block;
 
@@ -148,8 +148,8 @@ ul.topbar {
 .tag_list {
   width: 28%;
   margin: 0 auto;
-  min-height: 80vh;
-  max-height: 80vh;
+  min-height: 65vh;
+  max-height: 65vh;
   overflow-y: scroll;
   display: inline-block;
 
@@ -648,12 +648,34 @@ ul.topbar {
     z-index: 1 !important;
   }
 
+  // 모바일에서 넘쳐나는 콘텐츠에 가로 스크롤 적용
   .content .post_content {
     max-height: none !important;
     min-height: auto !important;
     height: auto !important;
     overflow-y: visible !important;
-    overflow-x: visible !important;
+    overflow-x: auto !important; // 가로 스크롤 활성화
+    width: calc(100% - 10px) !important;
+    box-sizing: border-box !important;
+    padding: 10px 5px !important;
+  }
+
+  // 이미지를 가로 스크롤 컨테이너 안에 배치
+  .post_content img {
+    max-width: none; // 이미지 원래 크기 유지
+  }
+
+  // pre 태그용 컨테이너 (코드 블록)
+  .post_content pre {
+    max-width: none; // 원래 크기 유지
+    white-space: pre; // 줄바꿈 없음
+    overflow-x: visible; // 가로 스크롤 필요 없음 (부모 요소의 스크롤 사용)
+  }
+
+  // 테이블 스타일 조정
+  .post_content table {
+    max-width: none; // 원래 크기 유지
+    overflow-x: visible; // 가로 스크롤 필요 없음 (부모 요소의 스크롤 사용)
   }
 
   .resize-handle {
@@ -679,8 +701,16 @@ ul.topbar {
     margin-top: 20px !important;
   }
 
+  // 마크다운 콘텐츠에도 동일하게 적용
   .markdown-content {
     padding: 5px;
+    overflow-x: auto !important;
+  }
+
+  .markdown-content pre,
+  .markdown-content img,
+  .markdown-content table {
+    max-width: none;
   }
 
   .markdown-content h1 {
