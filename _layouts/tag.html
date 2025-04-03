@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<ul>
+  {% for post in site.tags[page.tag] %}
+  <li>
+    <a
+      href="javascript:void(0);"
+      class="post-link"
+      data-post-id="{{ post.id | slugify }}"
+      data-title="{{ post.title }}"
+      data-date="{{ post.date | date: '%B %-d, %Y' }}"
+    >
+      <img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title
+      }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
