@@ -1,5 +1,5 @@
-Security:
-  name: Security
+security:
+  name: security
 
 DFIR:
   name: DFIR

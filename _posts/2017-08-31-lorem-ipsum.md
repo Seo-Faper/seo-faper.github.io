@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Lorem Ipsum"
-tags: Security DFIR programming etc
+tags: security DFIR programming etc
 ---
 
 ## Lorem Ipsum
