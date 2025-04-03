@@ -57,7 +57,6 @@ document.addEventListener("DOMContentLoaded", function () {
     newWindow.setAttribute("data-post-id", postId);
     newWindow.setAttribute("id", `window-${Date.now()}`); // 고유 ID 생성
 
-    // HTML 구조 생성 - Windows 98 스타일을 인라인으로 직접 적용
     newWindow.innerHTML = `
         <div class="post_title" style="background: linear-gradient(to right, #000080, #1084d0); padding: 2px 4px 3px 4px; position: relative;">
           <img src="/assets/img/file.png" style="float: left; width: 14px; height: 14px; margin: 0 3px 0 0;" />
@@ -118,6 +117,39 @@ document.addEventListener("DOMContentLoaded", function () {
       newWindow.querySelectorAll("pre code").forEach((block) => {
         window.hljs.highlightBlock(block);
       });
+    }
+
+    // 여기에 모바일 환경 처리 코드 추가
+    if (window.innerWidth <= 768) {
+      // 모바일 환경 감지
+      // 위치/크기 재설정
+      newWindow.style.position = "relative";
+      newWindow.style.top = "auto";
+      newWindow.style.left = "auto";
+      newWindow.style.width = "95%";
+      newWindow.style.margin = "10px auto";
+
+      // 포스트 내용 높이 자동 조정
+      const postContent = newWindow.querySelector(".post_content");
+      if (postContent) {
+        postContent.style.maxHeight = "none";
+        postContent.style.height = "auto";
+        postContent.style.overflowY = "visible";
+      }
+
+      // 리사이징 핸들 숨기기
+      const handles = newWindow.querySelectorAll(".resize-handle");
+      handles.forEach(function (handle) {
+        handle.style.display = "none";
+      });
+
+      // 스크롤을 새로 열린 창으로 이동
+      setTimeout(function () {
+        window.scrollTo({
+          top: newWindow.offsetTop,
+          behavior: "smooth",
+        });
+      }, 100);
     }
   }
 

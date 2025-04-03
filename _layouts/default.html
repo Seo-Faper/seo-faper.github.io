@@ -61,6 +61,10 @@
       <div class="post_list">
         {% unless page.date%} {% if page.title == 'me' or page.title == '404...'
         %}
+        <!-- 'me' 또는 '404' 페이지의 경우 마크다운 콘텐츠 표시 -->
+        <div class="markdown-content">{{ content }}</div>
+        {% else %}
+        <!-- 태그 페이지 또는 다른 페이지 - 포스트 목록 표시 -->
         <ul>
           {% for post in site.posts %}
           <li>
@@ -70,15 +74,15 @@
               data-post-id="{{ post.id | slugify }}"
               data-title="{{ post.title }}"
               data-date="{{ post.date | date: '%B %-d, %Y' }}"
-              ><img src="/assets/img/file.ico" title="{{ post.title }}" />{{
-              post.title }}</a
             >
+              <img src="/assets/img/file.ico" title="{{ post.title }}" />{{
+              post.title }}
+            </a>
           </li>
           {% endfor %}
         </ul>
-        {% else %}
-        <!-- 태그 페이지 또는 다른 페이지 -->
-        {{ content }} {% endif %} {% else %}
+        {% endif %} {% else %}
+        <!-- 포스트/날짜가 있는 콘텐츠 표시 -->
         <ul>
           {% for post in site.posts %}
           <li>
@@ -88,9 +92,10 @@
               data-post-id="{{ post.id | slugify }}"
               data-title="{{ post.title }}"
               data-date="{{ post.date | date: '%B %-d, %Y' }}"
-              ><img src="/assets/img/file.ico" title="{{ post.title }}" />{{
-              post.title }}</a
             >
+              <img src="/assets/img/file.ico" title="{{ post.title }}" />{{
+              post.title }}
+            </a>
           </li>
           {% endfor %}
         </ul>
