@@ -1,14 +1,14 @@
 Security:
   name: Security
 
-tag2:
-  name: tag2
+DFIR:
+  name: DFIR
 
-tag3:
-  name: tag3
+programming:
+  name: programming
 
-tag4:
-  name: tag4
+etc:
+  name: etc
 
 web:
   name: 웹해킹

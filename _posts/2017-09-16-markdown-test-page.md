@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Markdown Test Page"
-tags: Security tag3
+tags: Security programming
 ---
 
 ## Source: [Markdown Test Page](https://github.com/fullpipe/markdown-test-page)
