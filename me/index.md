@@ -6,4 +6,19 @@ permalink: /me/
 
 # About Me
 
-서종찬 GITHUB 블로그
+<hr>
+<pre>
+그냥 컴퓨터가 좋은 사람⠀⠀⠀⠀⠀⠀⠀⠀⠀
+</pre>
+<hr/>
+## I'm interested at
+
+<pre>
+Digital Forensics
+Front-End
+Web Hacking
+</pre>
+
+## CTFs
+
+- 디포챌 우승
