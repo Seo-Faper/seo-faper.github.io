@@ -6,10 +6,9 @@ permalink: /me/
 
 # About Me
 
+서종찬
+
 <hr>
-<pre>
-그냥 컴퓨터가 좋은 사람⠀⠀⠀⠀⠀⠀⠀⠀⠀
-</pre>
 
 ## I'm interested at
 
