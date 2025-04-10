@@ -65,33 +65,55 @@ permalink: /me/
   </tr>
 </table>
 
-### 저는 디지털포렌식을 공부하고 있으며 프로그래밍을 통한 포렌식 도구 개발 및 포렌식 수사를 위한 정보 수집 도구 개발에 관심이 많습니다.
+### 저는 정보보안을 공부하고 있으며 프로그래밍을 통한 포렌식 도구 개발 및 포렌식 수사를 위한 정보 수집 도구 개발에 관심이 많습니다. 또한 WEB 생태계에 관심이 많아 React, WASM 등 다양한 웹 개발을 취미로 하고 있습니다.
 
 <hr>
 
 ## Digital Forensics [[..]](#top)
 
-아티팩트를 통해 사건을 재구성한다는 점에서 큰 흥미를 느껴 디지털 포렌식에 처음 입문했으며, 각종 윈도우,안드로이드,IOS의 아티팩트에 대한 정보를 국내외 대회 및 논문에서 습득했습니다. 또한 각종 [교육](#edu)을 통해 디지털포렌식과 침해사고분석에 대한 역량을 키울 수 있었습니다.
+아티팩트를 통해 사건을 재구성한다는 점에서 큰 흥미를 느껴 디지털 포렌식에 처음 입문했으며, 각종 윈도우,안드로이드,IOS의 아티팩트에 대한 정보를 국내외 [대회](#ctf) 및 [논문](#paper)를 통해 공부 했습니다. 또한 각종 [교육](#edu)을 통해 디지털포렌식과 침해사고분석에 대한 역량을 키울 수 있었습니다.
 
 ## Feature Projects [[..]](#top)
 
-## CTFs <a name='ctf'></a>
+(주)상진개발 GPSS II
 
-## Educations<a name="edu"></a>
+RTSync - Smart HealthCare
 
-KITRI - BoB 12th Digital Forensics Track
+## CTFs <a name='ctf'></a>[[..]](#top)
+
+■ 2021 군 장병 공개 SW 해커톤 최우수 🎖️ 국방부장관상 2,000,000 KRW
+
+■ 2023 KDFS Challenge 대상 🎖️ 경찰청장상 1,500,000 KRW
+
+■ 2024 국제 대학생 사이버 보안 경진 대회 (핵테온 세종) 500,000 KRW
+
+■ 2024 Financial Security Institute Academy 우수 🥈 2,000,000 KRW
+
+■ 2024 Digital Forensics Challenge 학생부 winner 🎖️ 2,000,000 KRW
+
+■ 2024 정보보호 교육·훈련 사이버공격ㆍ방어 시나리오 경진대회 최우수 (보안 인프라 공격을 통한 해군 내부망 정보유출 시나리오) 한국방송통신전파진흥원(KCA)장상 200,000 KRW
+
+■ 2024 ELECCON 2위 🥈 한전시장상 500,000 KRW
+
+■ 2024 KDFS Challenge 대상 🎖️ 경찰청장상 1,500,000 KRW
+
+## Educations<a name="edu"></a>[[..]](#top)
+
+■ KITRI - BoB 12th Digital Forensics Track
+
+■ 금융보안원 - 금융보안아카데미 2기 사이버 침해 위협분석-대응 분야
 
 ---
 
 ## Contact
 
-**Email:** your.email@example.com
+**Email:** dswhdcks@naver.com
 
-**GitHub:** [github.com/yourusername](https://github.com/yourusername)
+**GitHub:** [github.com/seo-faper](https://github.com/seo-faper)
 
-**Blog/Portfolio:** [yourwebsite.com](https://yourwebsite.com)
+**Blog:** [https://faper.tistory.com/](https://faper.tistory.com/)
 
-**LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+**LinkedIn:** [link](https://www.linkedin.com/in/jongchan-seo-61b71a240/)
 
 ---
 
