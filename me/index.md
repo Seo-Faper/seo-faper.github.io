@@ -65,7 +65,9 @@ permalink: /me/
   </tr>
 </table>
 
-### 저는 정보보안을 공부하고 있으며 프로그래밍을 통한 포렌식 도구 개발 및 포렌식 수사를 위한 정보 수집 도구 개발에 관심이 많습니다. 또한 WEB 생태계에 관심이 많아 React, WASM 등 다양한 웹 개발을 취미로 하고 있습니다.
+### 저는 정보보안을 공부하고 있으며 프로그래밍을 통한 포렌식 도구 개발 및 포렌식 수사를 위한 정보 수집 도구 개발에 관심이 많습니다. 또한 WEB 생태계에 관심이 많아 React JS, Ruby on rails 등 다양한 웹 개발을 취미로 하고 있습니다.
+
+<br>
 
 <hr>
 
@@ -97,6 +99,8 @@ RTSync - Smart HealthCare
 
 ■ 2024 KDFS Challenge 대상 🎖️ 경찰청장상 1,500,000 KRW
 
+---
+
 ## Educations<a name="edu"></a>[[..]](#top)
 
 ■ KITRI - BoB 12th Digital Forensics Track
@@ -107,13 +111,13 @@ RTSync - Smart HealthCare
 
 ## Papers [[..]](#paper)
 
-2023 한국시뮬레이션학회 춘계 학술 대회 - `멀티 스테이지 공격 대응기법 개발을 위한 APT 데이터셋 조사`
+1. $$ 멀티 스테이지 공격 대응기법 개발을 위한 APT 데이터셋 조사 $$ [[view]]()
 
-2024 한국디지털포렌식학회 하계 학술 대회 - `VOLATILLTY3를 이용한 LINUX 기반 인메모리 데이터베이스의 데이터 수집 방법 `
+2. $$ VOLATILLTY3를 이용한 LINUX 기반 인메모리 데이터베이스의 데이터 수집 방법 $$ [[view]]()
 
-2024 한국정보보호학회 동계 학술대회 - `메모리 분석을 통한 데이터베이스 정보유출 위험성에 대한 연구`
+3. $$ 메모리 분석을 통한 데이터베이스 정보유출 위험성에 대한 연구 $$ [[view]]()
 
-RTSync - Smart HealthCare
+---
 
 ## Contact
 
