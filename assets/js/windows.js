@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
           const postId = this.getAttribute("data-post-id");
           const postTitle = this.getAttribute("data-title");
           const postDate = this.getAttribute("data-date");
+          const postTags = this.getAttribute("data-tags");
 
           if (!postId) {
             console.error("포스트 ID가 없습니다:", this);
@@ -33,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
             activateWindow(existingWindow);
           } else {
             // 새 창 생성
-            createNewWindow(postId, postTitle, postDate);
+            createNewWindow(postId, postTitle, postDate, postTags);
           }
         });
       }
@@ -41,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // 새 창 생성 함수
-  function createNewWindow(postId, postTitle, postDate) {
+  function createNewWindow(postId, postTitle, postDate, postTags) {
     // 필수 데이터 확인
     if (!postId || !document.getElementById("post-" + postId)) {
       console.error(
@@ -49,6 +50,17 @@ document.addEventListener("DOMContentLoaded", function () {
         postId
       );
       return;
+    }
+
+    // Create tags HTML
+    let tagsHtml = '';
+    if (postTags) {
+      const tagsArray = postTags.split(',');
+      tagsHtml = tagsArray.map(tag => `
+        <li style="display: inline-block; margin: 0 5px;">
+          <a href="/tags/${tag.trim()}.html" style="text-decoration: none; color: #000080;">#${tag.trim()}</a>
+        </li>
+      `).join('');
     }
 
     // 새 창 요소 생성
@@ -77,6 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <li style="display: inline-block; margin: 0 5px 0 0;">${
             postDate || "날짜 정보 없음"
           }</li>
+          ${tagsHtml}
         </ul>
         <div class="post_content" style="background: #fff8ff; border-width: 2px; border-style: ridge groove groove ridge; border-color: #7f787f #fff8ff #fff8ff #7f787f; width: 98.5%; margin: 0 auto; min-height: 300px; max-height: 600px; overflow-y: auto; padding: 2px;">
           ${document.getElementById("post-" + postId).innerHTML}

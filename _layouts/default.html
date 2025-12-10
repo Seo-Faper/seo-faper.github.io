@@ -80,6 +80,7 @@
               data-post-id="{{ post.id | slugify }}"
               data-title="{{ post.title }}"
               data-date="{{ post.date | date: '%B %-d, %Y' }}"
+              data-tags="{{ post.tags | join: ',' }}"
             >
               <img src="/assets/img/file.ico" title="{{ post.title }}" />{{
               post.title }}
@@ -95,6 +96,7 @@
               data-post-id="{{ post.id | slugify }}"
               data-title="{{ post.title }}"
               data-date="{{ post.date | date: '%B %-d, %Y' }}"
+              data-tags="{{ post.tags | join: ',' }}"
             >
               <img src="/assets/img/file.ico" title="{{ post.title }}" />{{
               post.title }}
@@ -113,6 +115,7 @@
               data-post-id="{{ post.id | slugify }}"
               data-title="{{ post.title }}"
               data-date="{{ post.date | date: '%B %-d, %Y' }}"
+              data-tags="{{ post.tags | join: ',' }}"
             >
               <img src="/assets/img/file.ico" title="{{ post.title }}" />{{
               post.title }}
