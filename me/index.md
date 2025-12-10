@@ -39,39 +39,14 @@ permalink: /me/
 
 # <a name="top"></a>About Me
 
-<table class="resume-header">
-  <tr>
-    <td rowspan="5" style="width: 100px; text-align: center;" class="p">
-      <img src="https://faper2.notion.site/image/attachment%3A4a7c1131-54a1-44cc-a72b-b28dc93ed608%3Ae4_%EC%84%9C%EC%A2%85%EC%B0%AC_%EC%B7%A8%EC%97%85%EB%B0%98%EB%AA%85.jpg?table=block&id=1aec1f21-d119-8026-9b4d-d667848d0c3d&spaceId=cd485a0c-9bcc-4cc8-9808-b661dd831ab4&width=380&userId=&cache=v2" class="resume-photo" alt="Profile Photo">
-    </td>
-    <td class="resume-label">Name</td>
-    <td>서종찬</td>
-  </tr>
-  <tr>
-    <td class="resume-label">Age</td>
-    <td>25 (2001)</td>
-  </tr>
-  <tr>
-    <td class="resume-label">Email</td>
-    <td>dswhdcks@naver.com</td>
-  </tr>
-  <tr>
-    <td class="resume-label">University</td>
-    <td>청주대학교</td>
-  </tr>
-  <tr>
-    <td class="resume-label">Major</td>
-    <td>디지털보안학과 (4.1 / 4.5)</td>
-  </tr>
-</table>
 
-### 저는 정보보안을 공부하고 있으며 프로그래밍을 통한 포렌식 도구 개발 및 포렌식 수사를 위한 정보 수집 도구 개발에 관심이 많습니다. 또한 WEB 생태계에 관심이 많아 React JS, Ruby on rails 등 다양한 웹 개발을 취미로 하고 있습니다.
+### 저의 기술블로그에 오신 여러분을 환영합니다. 이 블로그에서는 다양한 정보보안(특히 DFIR)과 관련된 기술을 공유하고자 합니다. 저는 CTF 플레이어이자 현업에서 Blueteam으로 일하고 있습니다. 
 
 <br>
 
 <hr>
 
-## Digital Forensics [[..]](#top)
+## DFIR [[..]](#top)
 
 아티팩트를 통해 사건을 재구성한다는 점에서 큰 흥미를 느껴 디지털 포렌식에 처음 입문했으며, 각종 윈도우,안드로이드,IOS의 아티팩트에 대한 정보를 국내외 [대회](#ctf) 및 [논문](#paper)를 통해 공부 했습니다. 또한 각종 [교육](#edu)을 통해 디지털포렌식과 침해사고분석에 대한 역량을 키울 수 있었습니다.
 
@@ -81,7 +56,10 @@ permalink: /me/
 
 RTSync - Smart HealthCare
 
-## Contest <a name='ctf'></a>[[..]](#top)
+은닉침투 연구
+
+
+## CTF & Contest <a name='ctf'></a>[[..]](#top)
 
 ■ 2021 군 장병 공개 SW 해커톤 최우수 🎖️ 국방부장관상 2,000,000 KRW
 
@@ -98,6 +76,10 @@ RTSync - Smart HealthCare
 ■ 2024 ELECCON 2위 🥈 한전시장상 500,000 KRW
 
 ■ 2024 KDFS Challenge 대상 🎖️ 경찰청장상 1,500,000 KRW
+
+■ 2025 HITCON CTF 4th (Team: **CTF Demon Hunters)**
+
+■ 2025 HACKSIUM BUSAN CTF 1위 (**과학기술정보통신부 장관상**)
 
 ---
 
@@ -131,4 +113,3 @@ RTSync - Smart HealthCare
 
 ---
 
-_This page is built with 💻, 🕵️, and a bit of ☕._
